@@ -1,0 +1,36 @@
+body {
+    background-color: lightpink;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: pink;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    background-color: #f08080;
+}
+
+.content {
+    text-align: center;
+    padding: 50px;
+}

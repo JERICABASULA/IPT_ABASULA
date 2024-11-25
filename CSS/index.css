@@ -1,0 +1,86 @@
+/* Page background */
+body {
+    background-color: lightpink; /* Light pink background for the entire page */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header with full width */
+header {
+    background-color: pink; /* Pink background for the header */
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box; /* Include padding in element's width */
+    position: sticky;
+    top: 0; /* Sticks the header to the top */
+    z-index: 1000; /* Make sure header is above other elements */
+}
+
+/* Navigation bar styles */
+.navbar {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+}
+
+.navbar .nav-link {
+    color: white; /* White text */
+    text-decoration: none;
+    padding: 10px 15px; /* Padding around each link for a button-like effect */
+    font-weight: bold;
+    border-radius: 5px; /* Rounded corners */
+}
+
+.navbar .nav-link:hover {
+    background-color: #f08080; /* Light red background on hover */
+}
+
+/* Container for image and text */
+.content {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-top: 30px; /* Adjust this to move the content up/down */
+    min-height: 70vh; /* Adjust height so the content stays centered */
+}
+
+/* Image box styling */
+.image-box {
+    width: 300px;
+    height: 300px;
+    background-color: #e0e0e0; /* Placeholder for the image */
+    margin-right: 20px;
+    border: 2px solid pink;
+}
+
+/* Title and description area */
+.description {
+    width: 500px; /* Fixed width for the text box */
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: right; /* Align text to the right */
+}
+
+.description h1 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+/* Social media links at the bottom right */
+.social-links {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-align: right;
+}
+
+.social-links .social-link {
+    color: #87CEFA; /* Baby blue */
+    text-decoration: underline;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.social-links .social-link:hover {
+    color: deeppink; /* Change color on hover */
+}
